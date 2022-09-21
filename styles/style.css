@@ -200,7 +200,7 @@ font-weight: normal;
   position: relative;
   flex-direction: column;
   align-items: center;
-  overflow: hidden
+  overflow: hidden;
 }
 .section-title_theme_dark {
   width: 60%;
