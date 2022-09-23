@@ -107,6 +107,11 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+  margin: 0;
+}
+
+.two-columns__paragraph:nth-child(2n) {
+  margin: 30px 0;
 }
 
 .two-columns__span-accent {
@@ -154,6 +159,7 @@
   flex-direction: row;
   justify-content: space-between;
   list-style-type: none;
+  padding: 0;
 }
 
 .table__cell {
@@ -290,6 +296,7 @@
   justify-content: space-around;
   display: flex;
   width: 90%;
+  margin: auto;
 }
 
 .logo_place_footer {
@@ -340,7 +347,7 @@
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
-  color: #2f80ed;
+  color: white;
   text-decoration: none;
 }
 
