@@ -1,0 +1,6 @@
+.footer__column-links {
+  flex-basis: 711px;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}

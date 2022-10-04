@@ -1,0 +1,4 @@
+.header__square-pic {
+    transform: rotate(360deg);
+    transition: transform 20s linear;
+}
