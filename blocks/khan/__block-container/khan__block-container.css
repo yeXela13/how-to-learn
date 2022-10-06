@@ -1,0 +1,5 @@
+.khan__block-container {
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+}

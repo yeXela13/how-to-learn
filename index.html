@@ -19,7 +19,7 @@
         <a href="#" class="header__link" target="_blank">Узнать&#8594;</a>
       </p>
       <img class="header__main-illustration" src="./images/header-image.png" alt="главная картинка">
-      <div class="header__square-pic"></div>
+      <div class="header__square-pic rotation"></div>
     </header>
     <div class="content">
       <section class="description">
@@ -71,10 +71,10 @@
   <section class="video">
    <h2 class="section-title">Видео на TED</h2>
   <p class="section-subtitle">Для тех, кто любит прокрастинировать</p>
-  <iframe class="video__iframes">
-  <iframe class="video__iframe" controls poster width="515px" height="316px" src="https://www.youtube.com/watch?v=arj7oStGLkU"></iframe>
-  <iframe class="video__iframe" controls poster width="515px" height="316px" src="https://www.youtube.com/watch?v=5MgBikgcWnY"></iframe>
-  </iframe>
+  <div class="video__iframes">
+  <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU" title="Tim Urban: Inside the mind of a master procrastinator | TED" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY" title="The first 20 hours -- how to learn anything | Josh Kaufman | TEDxCSU" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
   </section>
   <section class="oakley">
     <div class="two-columns">
@@ -133,7 +133,17 @@
         </ul>
       </section>
   <section class="khan">
-
+<div class="khan__container">
+  <p class="khan__author">Салман Хан</p>
+  <h2 class="khan__title">Весь мир - школа</h2>
+  <p class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу "Весь мир - школа" нужно прочитать всем, кто занимается образованием - так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</p>
+  <h3 class="khan__quote-author">Джордж Лукас</h3>
+  <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
+  <div class="khan__block-container">
+    <img class="khan__book-pic" src="../how-to-learn/images/khan-book.jpg" alt="книга">
+    <a class="khan__buy-link" href="#" target="_blank">Купить книгу&#8594;</a>
+  </div>
+</div>
   </section>
       <section class="kaufman">
         <h2 class="section-title section-title_theme_dark">Принципы обучения</h2>
@@ -181,10 +191,17 @@
             <p class="table__text table__text_theme_dark">Уделяйте внимание количеству и скорости.</p>
           </li>
         </ul>
-        <div class="kaufman__triangle"></div>
+        <div class="kaufman__triangle rotation"></div>
       </section>
   <section class="resources">
-
+    <h2 class="section-title">Полезные ресурсы</h2>
+    <p class="section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
+    <div class="resources__logo-zone">
+      <a class="resources__link" href="#" target="_blank"></a>
+      <a class="resources__link" href="#" target="_blank"></a>
+      <a class="resources__link" href="#" target="_blank"></a>
+      <a class="resources__link" href="#" target="_blank"></a>
+    </div>
   </section>
     </div>
     <footer class="footer">
