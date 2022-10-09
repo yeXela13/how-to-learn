@@ -1,4 +1,7 @@
 .oakley {
     background-color: #f2f2f2;
-    padding-top: 160px;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
